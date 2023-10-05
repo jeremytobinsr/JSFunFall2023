@@ -4,3 +4,9 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+let myNumber = 13;
+
+console.log(myNumber + 5); 
+
+
