@@ -6,4 +6,8 @@ let b = 5; // e.g.
  * This should still work when "a" and "b" are equal to different numbers.
  */
 
-// WRITE YOUR ANSWER BELOW THIS LINE
+// WRITE YOUR ANSWER BELOW THIS 
+
+let differnece = a - b;
+console.log(differnece);
+
