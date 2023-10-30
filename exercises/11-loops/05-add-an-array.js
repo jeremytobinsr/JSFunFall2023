@@ -6,3 +6,5 @@ let numbers = [10000, -8, 10, 0.7]; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+let sum = numbers = (+);
+console.log(sum);

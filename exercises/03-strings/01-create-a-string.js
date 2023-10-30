@@ -3,3 +3,6 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const myName = "Jeremy Tobin sr"
+console.log(myName);
+
