@@ -1,4 +1,4 @@
-let num = 8; // e.g.
+const num = 2 // e.g.
 
 /**
  * This is similar to an older problem.
@@ -11,3 +11,7 @@ let num = 8; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const isEvenOrOdd = num 
+? "even"
+: "none";
+  console.log(isEvenOrOdd);

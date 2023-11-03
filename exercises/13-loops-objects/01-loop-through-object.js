@@ -1,3 +1,4 @@
+import Dogs from 'Dogs';
 const links = {
   Dogs: "http://www.omfgdogs.com",
   Kittens: "https://giphy.com/search/kitten",
@@ -17,3 +18,9 @@ const links = {
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+let html = "";
+for (let [text, href] of Object.entries(links)) {
+  html += `<a href="${href}">${text}</a>`;
+}
+console.log(html);

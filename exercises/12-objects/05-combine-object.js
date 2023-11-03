@@ -13,3 +13,6 @@ const obj2 = { lastName: "Kent" }; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const fullName = {...obj1, ...obj2};
+console.log(fullName);
+

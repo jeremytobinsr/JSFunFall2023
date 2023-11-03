@@ -1,3 +1,4 @@
+const fullName = require('fullName');
 let firstName = "Bill"; // e.g.
 let letter = "i"; // e.g.
 
@@ -23,4 +24,5 @@ const characterPosition = firstName.indexOf(letter);
 
 
 console.log(fullName.indexof);
+
 
