@@ -13,4 +13,7 @@ const newEmail = "purrfect@gmail.com"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
-newUser = (...user,newEmail);
+newUser = (...user, email: newEmail);
+console.log(newEmail);
+
+
