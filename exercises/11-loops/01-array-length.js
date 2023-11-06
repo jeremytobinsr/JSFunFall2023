@@ -6,4 +6,6 @@ let planets = ["Pluto", "Saturn", "Mar"]; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
-console.log(planets.lenght);
+console.log(planets.length);
+
+

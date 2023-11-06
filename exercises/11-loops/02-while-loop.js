@@ -8,3 +8,8 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+let counter = 1;
+while (counter <= 10) {
+  console.log(10 * counter);
+  counter++;
+}
