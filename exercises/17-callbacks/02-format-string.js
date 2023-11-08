@@ -23,7 +23,11 @@ const format = (string1, string2) => {
 
 const formatString = (string1, string2, callback) => {
   // WRITE YOUR ANSWER IN HERE
+  return formatString("Wash Dishes", "Do Laundry", format);
+
+
 };
+
 
 // Uncomment me to test in Quokka
 // console.log( formatString("Wash dishes", "Do laundry", format) );
