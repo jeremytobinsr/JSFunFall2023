@@ -9,3 +9,18 @@ const numbers = [1, 10, -2, 3, 4]; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const callback = (num => {
+  if (num < lowestNumber)
+ {
+  lowestNumber = num;
+ }
+}
+);
+
+numbers.forEach(callback);
+
+console.log(lowestNumber);
+
+
+
+

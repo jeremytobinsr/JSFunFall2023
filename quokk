@@ -1,0 +1,11 @@
+const changesNeeded = [
+  "Seal The Cracks",
+  "New Campaign"
+];
+
+const printFootnotes = (footnote, index, array) => {
+  console.log(`${index +1}. See ${changesNeeded}`);
+};
+
+changesNeeded.forEach(printFootnotes);
+
