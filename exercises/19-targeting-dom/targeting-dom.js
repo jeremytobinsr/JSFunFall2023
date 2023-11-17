@@ -11,5 +11,35 @@
  * Do not change the HTML unless you are instructed to do so.
  */
 (function () {
-  // Put your answers in here
+ 
+    const firstLI = document.querySelector("li");
+        console.log(firstLi);
+
+    const myId = document.querySelector("#myId");
+        console.log(myId);
+
+    const allLi = document.querySelectorAll("li");
+        allLi.forEach((li) => {
+        console.log(li);
+    });
+
+    const allBgwarning = document.querySelector(".bg-warning");
+    allBgwarning.forEach((".bg-warning") =>{
+      console.log(allBgwarning);
+    })
+
+    const targetmeButton = document.querySelector(#targetmebutton);
+          console.log(targetmeButton);
+
+    const targetLinks = document.querySelectorAll ("#sociallink");
+       targetLinks.forEach((link) => console.log(link));
+
+    const cells = document.querySelector(#myCells);
+    cells.forEach((#myCells) => console.log(cells));
+    });
+
+    
+
+
+
 })();

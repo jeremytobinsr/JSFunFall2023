@@ -28,3 +28,4 @@ const links = [
 links.forEach((href, idx) => {
   htmlStr += `<a href="${href}">${idx + 1}. ${href}</a>`;
 });
+console.log(htmlStr);
