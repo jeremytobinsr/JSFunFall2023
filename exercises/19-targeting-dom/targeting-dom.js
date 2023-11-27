@@ -23,9 +23,9 @@
         console.log(li);
     });
 
-    const allBgwarning = document.querySelector(".bg-warning");
-    allBgwarning.forEach((".bg-warning") =>{
-      console.log(allBgwarning);
+    const allBgWarning = document.querySelector(".bg-warning");
+    allBgWarning.forEach((".bg-warning") => {
+      console.log(allBgWarning);
     })
 
     const targetmeButton = document.querySelector(#targetmebutton);
@@ -37,9 +37,4 @@
     const cells = document.querySelector(#myCells);
     cells.forEach((#myCells) => console.log(cells));
     });
-
-    
-
-
-
-})();
+  

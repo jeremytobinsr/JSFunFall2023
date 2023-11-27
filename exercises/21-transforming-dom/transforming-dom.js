@@ -4,5 +4,7 @@
  * You may modify the HTML to add ids, classes, data attributes, etc.
  */
 (function () {
+  const newbckrnd = document.querySelector("#newbckrnd");
+  newbckrnd.style.backroundColor = "";
   // Put your answers in here
 })();
