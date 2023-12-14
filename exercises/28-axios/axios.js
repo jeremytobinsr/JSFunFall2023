@@ -13,3 +13,21 @@
    * }
    */
 })();
+const dogButton =  document.querySelector("#dog-button");
+  const image = document.querySelector('#image')
+ 
+ 
+ 
+  axios({
+    url: "https://dog.ceo/api/breeds/image/random",
+    method: "GET",
+ 
+  })
+  .then(response => {
+    dogButton.addEventListener("click", event =>{
+      console.log("hello", response);
+     
+      // image.src =
+   
+    });
+  }).catch((err) => {});

@@ -4,7 +4,7 @@
  * You may modify the HTML to add ids, classes, data attributes, etc.
  */
 (function () {
-  const newbckrnd = document.querySelector("#newbckrnd");
-  newbckrnd.style.backroundColor = "";
+  document.querySelector("#inlineStyles").style.backgroundColor = "white";
+const showme.classList.remove("hidden");
   // Put your answers in here
 })();
